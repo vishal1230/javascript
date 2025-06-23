@@ -28,3 +28,28 @@ const myFun = function(){
     console.log("hello world");
     
 }
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Memory is of two type Stack and Heap
+// Stack (stores Primitive datatype {copy is passed , call by value})
+// Heap(stores Non-Primitive datatype {address is passed , call by refrence})
+
+let myName="vishal"
+let anotherName=myName;
+anotherName="David"
+console.log(myName);
+console.log(anotherName);
+
+let myAccount={
+    email:"vishal@123",
+    Password:1234
+}
+
+let anotherAccount=myAccount
+anotherAccount.email="david@123"
+
+console.log(myAccount.email);
+console.log(anotherAccount.email);
+
