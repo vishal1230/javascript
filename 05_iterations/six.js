@@ -1,4 +1,4 @@
-// forEach donot retunr value
+// forEach donot return value
 
 // filter return value
 
